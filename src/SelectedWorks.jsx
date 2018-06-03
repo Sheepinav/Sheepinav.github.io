@@ -10,11 +10,11 @@ class AboutMe extends Component {
     return (
 
         <div id= "SelectedWorks">
+          <Element name="selectedWorks"></Element>
           <FlexView style={{height:50}}></FlexView>
           <FlexView row>
 
             <FlexView column basis={100}></FlexView>
-            <Element name="selectedWorks"></Element>
             <FlexView column basis={300} >
               <FlexView row hAlignContent='center'><h2> Selected Works </h2></FlexView>
               <FlexView row hAlignContent='center'>
