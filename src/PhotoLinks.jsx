@@ -13,7 +13,7 @@ class Photo_Links extends Component {
         <div id= "Photo_Links">
           <FlexView column style={{height:50}} />
           <FlexView column style={{ height: 400 }} vAlignContent='center' className="PhotoLinks">
-            <FlexView row hAlignContent='center'>
+            <FlexView row="true" hAlignContent='center'>
 
               <svg width="150" >
                 <line x1="0" y1="100" x2="200" y2="100" style={{stroke:"rgb(255,255,255)", strokeWidth:3}} />
@@ -29,7 +29,7 @@ class Photo_Links extends Component {
 
             </FlexView>
             <p className = "descriptext" >Bridging the gap between Web Development and Data Science</p>
-            <FlexView row hAlignContent='center'>
+            <FlexView row="true" hAlignContent='center'>
               <a href = "https://www.github.com/sheepinav">
                 <img src = {Github} id="Github" alt=""/>
               </a>
@@ -43,17 +43,19 @@ class Photo_Links extends Component {
 
 
 
-          <a onClick={() => scroll.scrollTo(860)}>
-            <div class="bottom-arrow-svg">
-              <svg width="100">
+
+          <div className="bottom-arrow-svg">
+            <a onClick={() => scroll.scrollTo(860)}>
+              <svg width="100" className="down-arrow">
 
                 <line x1="0" y1="0" x2="51" y2="30" style={{stroke:"rgb(255,255,255)", strokeWidth:4}} />
                 <polygon points="75,30"></polygon>
                 <line x1="100" y1="0" x2="49" y2="30" style={{stroke:"rgb(255,255,255)", strokeWidth:4}} />
 
               </svg>
-            </div>
-          </a>
+            </a>
+          </div>
+
 
 
         </div>

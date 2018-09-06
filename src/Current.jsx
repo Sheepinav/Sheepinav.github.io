@@ -12,12 +12,12 @@ class Current extends Component {
         <div id= "Current">
           <Element name="currentWorks"></Element>
           <FlexView style={{height:100}}></FlexView>
-          <FlexView row>
+          <FlexView row="true">
 
             <FlexView column basis={100}></FlexView>
             <FlexView column basis={300}>
-              <FlexView row hAlignContent='center'><h2>Current Work</h2></FlexView>
-              <FlexView row hAlignContent='center'>
+              <FlexView row="true" hAlignContent='center'><h2>Current Work</h2></FlexView>
+              <FlexView row="true" hAlignContent='center'>
                 <svg width="200" height="20">
                   <line x1="0" y1="10" x2="200" y2="10" style={{stroke:"rgb(52, 58, 64)", strokeWidth:4}} />
                 </svg>
@@ -25,37 +25,37 @@ class Current extends Component {
             </FlexView>
             <FlexView column basis={100}></FlexView>
             <FlexView column style={{width:300}}>
-              <FlexView row style={{width:300}}>
+              <FlexView row="true" style={{width:300}}>
                 <a href="http://susa.berkeley.edu">
                   <img src={SUSA} id="SUSAlogo" alt=""></img>
                 </a>
               </FlexView>
-              <FlexView row basis={50}></FlexView>
-              <FlexView row style={{width:300}} hAlignContent='center'>
+              <FlexView row="true" basis={50}></FlexView>
+              <FlexView row="true" style={{width:300}} hAlignContent='center'>
                 <a href="http://functionalfoodscenter.net/">
                   <img src={FFC} id="FFClogo" alt=""></img>
                 </a>
               </FlexView>
             </FlexView>
             <FlexView column basis={500}>
-              <FlexView row hAlignContent='center' >
+              <FlexView row="true" hAlignContent='center' >
                 <h3>Statistics Undergraduate Student Association</h3>
               </FlexView>
-              <FlexView row hAlignContent='center' >
+              <FlexView row="true" hAlignContent='center' >
                 Web Development Co-Director
               </FlexView>
-              <FlexView row hAlignContent='center'>
+              <FlexView row="true" hAlignContent='center'>
                 <i>April 2018 - Present</i>
               </FlexView>
-              <FlexView row basis={100}></FlexView>
-              <FlexView row hAlignContent='center'>
+              <FlexView row="true" basis={100}></FlexView>
+              <FlexView row="true" hAlignContent='center'>
                 <h3>Functional Food Center</h3>
               </FlexView>
-              <FlexView row hAlignContent='center'>
+              <FlexView row="true" hAlignContent='center'>
                 Web Development and Design Intern
               </FlexView>
-              <FlexView row hAlignContent='center'>
-                <i>June 2018 - Present</i>
+              <FlexView row="true" hAlignContent='center'>
+                <i>June 2018 - August 2018</i>
               </FlexView>
             </FlexView>
             <FlexView column basis={100}></FlexView>

@@ -12,12 +12,12 @@ class AboutMe extends Component {
         <div id= "SelectedWorks">
           <Element name="selectedWorks"></Element>
           <FlexView style={{height:50}}></FlexView>
-          <FlexView row>
+          <FlexView row="true">
 
             <FlexView column basis={100}></FlexView>
             <FlexView column basis={300} >
-              <FlexView row hAlignContent='center'><h2> Selected Works </h2></FlexView>
-              <FlexView row hAlignContent='center'>
+              <FlexView row="true" hAlignContent='center'><h2> Selected Works </h2></FlexView>
+              <FlexView row="true" hAlignContent='center'>
                 <svg width="240" height="20">
                   <line x1="0" y1="10" x2="240" y2="10" style={{stroke:"rgb(52, 58, 64)", strokeWidth:4}} />
                 </svg>
@@ -26,10 +26,10 @@ class AboutMe extends Component {
             <FlexView column basis={100}></FlexView>
             <FlexView column>
 
-              <FlexView row grow>
+              <FlexView row="true" grow>
 
                 <FlexView column style={{width:400}}>
-                  <a href= "https://susa.berkeley.edu/housingcrisis" target="_blank">
+                  <a href= "https://susa.berkeley.edu/housingcrisis">
                     <img src={housingcrisis} id="housingcrisis" alt=""></img>
                   </a>
                 </FlexView>
@@ -46,9 +46,9 @@ class AboutMe extends Component {
               {/* helps to space out images */}
               <FlexView style={{height:50}}></FlexView>
 
-              <FlexView row grow>
+              <FlexView row="true" grow>
                 <FlexView column style={{width:400}}>
-                  <a href= "https://susa.berkeley.edu/webapp" target="_blank">
+                  <a href= "https://susa.berkeley.edu/webapp">
                     <img src={popmodeling} id="popmodeling" alt=""></img>
                   </a>
                 </FlexView>
@@ -57,13 +57,13 @@ class AboutMe extends Component {
                   <p>A Fall 2018 project as part of one of the Statistics Undergraduate Student Association at Berkeley's Data Consulting Committees.
                     This was a project dedicated to modeling the demographic transition of 10 countries including the US and China as well as using Machine Learning and Time Series techniques to predict future growth.
                   </p>
-                  </FlexView>
+                </FlexView>
               </FlexView>
 
               <FlexView grow></FlexView>
             </FlexView>
           </FlexView>
-          <FlexView row basis={100}></FlexView>
+          <FlexView row="true" basis={100}></FlexView>
           </div>
 
     )

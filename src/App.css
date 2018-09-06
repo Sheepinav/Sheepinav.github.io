@@ -14,6 +14,7 @@
 }
 body{
   font-family:Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+  cursor:default;
 }
 
 .Nav-Bar{
@@ -49,16 +50,34 @@ a{
   font-size: 120px;
 
 }
+.Nametext:hover{
+  cursor:default;
+}
 svg{
   opacity: .5;
 }
+
+.dash{
+  font-size: 20px;
+}
+
+.dash:hover{
+  cursor: default;
+}
+
 .descriptext{
   color:white;
   font-size:18px ;
 }
+
 .PhotoLinks{
   background-color: rgb(52, 58, 64, .6);
 }
+
+.myDescription,.currentWorks,.mySkills,.selectedWorks,.myResume{
+  font-size: 20px;
+}
+
 .myDescription:hover{
   cursor:pointer;
   opacity:.7;
@@ -82,7 +101,17 @@ svg{
   cursor:pointer;
   opacity:.7;
 }
-.bottom-arrow-svg:hover{
+.myResume:hover{
+  cursor:pointer;
+  opacity:.7;
+  text-decoration: none;
+}
+
+.resumeLink:hover{
+  text-decoration: none;
+}
+
+.down-arrow:hover{
   cursor:pointer;
 }
 #AboutMe{

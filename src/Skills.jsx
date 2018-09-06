@@ -13,12 +13,12 @@ class Skills extends Component {
             <Element name="skills"></Element>
             <FlexView style={{height:50}}></FlexView>
 
-            <FlexView row>
+            <FlexView row="true">
               <FlexView column basis={100}></FlexView>
 
               <FlexView column basis={300} hAlignContent='center'>
-                <FlexView row hAlignContent='center'><h2> My Skills </h2></FlexView>
-                <FlexView row hAlignContent='center'>
+                <FlexView row="true" hAlignContent='center'><h2> My Skills </h2></FlexView>
+                <FlexView row="true" hAlignContent='center'>
                   <svg width="150" height="20">
                     <line x1="0" y1="10" x2="150" y2="10" style={{stroke:"rgb(52, 58, 64)", strokeWidth:4}} />
                   </svg>
@@ -28,50 +28,50 @@ class Skills extends Component {
               <FlexView column grow>
                 <FlexView column>
 
-                  <FlexView row grow className ="skillContainer">
-                    <div class="skills html">HTML/CSS</div>
+                  <FlexView row="true" grow className ="skillContainer">
+                    <div className="skills html">HTML/CSS</div>
                   </FlexView>
                 </FlexView>
                 <FlexView column basis={30}></FlexView>
                 <FlexView column>
-                  <FlexView row grow className ="skillContainer">
-                    <div class="skills js">Javascript Libraries (D3.js, leaflet.js, etc...)</div>
+                  <FlexView row="true" grow className ="skillContainer">
+                    <div className="skills js">Javascript Libraries (D3.js, leaflet.js, etc...)</div>
                   </FlexView>
                 </FlexView>
                 <FlexView column basis={30}></FlexView>
                 <FlexView column>
-                  <FlexView row grow className ="skillContainer">
-                    <div class="skills react">React.js</div>
+                  <FlexView row="true" grow className ="skillContainer">
+                    <div className="skills react">React.js</div>
                   </FlexView>
                 </FlexView>
                 <FlexView column basis={30}></FlexView>
                 <FlexView column>
-                  <FlexView row grow className ="skillContainer">
-                    <div class="skills r">R</div>
+                  <FlexView row="true" grow className ="skillContainer">
+                    <div className="skills r">R</div>
                   </FlexView>
                 </FlexView>
                 <FlexView column basis={30}></FlexView>
                 <FlexView column>
-                  <FlexView row grow className ="skillContainer">
-                    <div class="skills python">Python (Pandas, SciKit Learn, Matplotlib)</div>
+                  <FlexView row="true" grow className ="skillContainer">
+                    <div className="skills python">Python (Pandas, SciKit Learn, Matplotlib)</div>
                   </FlexView>
                 </FlexView>
                 <FlexView column basis={30}></FlexView>
                 <FlexView column>
-                  <FlexView row grow className ="skillContainer">
-                    <div class="skills node">node.js/express.js</div>
+                  <FlexView row="true" grow className ="skillContainer">
+                    <div className="skills node">node.js/express.js</div>
                   </FlexView>
                 </FlexView>
                 <FlexView column basis={30}></FlexView>
                 <FlexView column>
-                  <FlexView row grow className ="skillContainer">
-                    <div class="skills django">Django</div>
+                  <FlexView row="true" grow className ="skillContainer">
+                    <div className="skills django">Django</div>
                   </FlexView>
                 </FlexView>
                 <FlexView column basis={30}></FlexView>
                 <FlexView column>
-                  <FlexView row grow className ="skillContainer">
-                    <div class="skills ts">Tensorflow</div>
+                  <FlexView row="true" grow className ="skillContainer">
+                    <div className="skills ts">Tensorflow</div>
                   </FlexView>
                 </FlexView>
               </FlexView>

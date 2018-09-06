@@ -7,7 +7,6 @@ import PhotoLinks from './PhotoLinks';
 import Skills from './Skills';
 import Current from './Current';
 import SelectedWorks from './SelectedWorks';
-import { Navbar, Jumbotron, Button } from 'react-bootstrap';
 import 'react-flexview/lib/flexView.css';
 
 class App extends Component {

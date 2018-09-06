@@ -12,7 +12,7 @@ class AboutMe extends Component {
 
         <div id= "AboutMe">
 
-          <FlexView row style={{height:500}}>
+          <FlexView row="true" style={{height:500}}>
             <FlexView hAlignContent='center' vAlignContent= 'center' basis={500} >
               <FlexView column>
                 <img src={myFace} id="myFacePic" alt=""></img>
@@ -20,17 +20,17 @@ class AboutMe extends Component {
             </FlexView>
             <Element name="myDescription"></Element>
             <FlexView column>
-              <FlexView row basis={100}></FlexView>
-              <FlexView row hAlignContent='center'><h1 className="App-title">About Me</h1></FlexView>
-              <FlexView row hAlignContent='center'>
+              <FlexView row="true" basis={100}></FlexView>
+              <FlexView row="true" hAlignContent='center'><h1 className="App-title">About Me</h1></FlexView>
+              <FlexView row="true" hAlignContent='center'>
                 <svg width="160" height="40">
                   <line x1="0" y1="10" x2="160" y2="10" style={{stroke:"rgb(255,255,255)", strokeWidth:4}} />
                 </svg>
               </FlexView>
 
-              <FlexView row hAlignContent='center'><i>UC Berkeley - Applied Mathematics - Expected Graduation: May 2020</i></FlexView>
-              <FlexView row basis={20}></FlexView>
-              <FlexView row hAlignContent='left' vAlignContent='center'>
+              <FlexView row="true" hAlignContent='center'><i>UC Berkeley - Applied Mathematics - Expected Graduation: May 2020</i></FlexView>
+              <FlexView row="true" basis={20}></FlexView>
+              <FlexView row="true" hAlignContent='left' vAlignContent='center'>
                 I am a student at UC Berkeley majoring in Applied Mathematics who seeks to solve real world problems
                 using applications of Statistics and Data Science. I am especially interested in Web Development’s applications to fields
                 such as Machine Learning and Data Science to create visualizations and communicate my findings to my peers and the public.
