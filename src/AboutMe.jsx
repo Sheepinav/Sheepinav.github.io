@@ -13,13 +13,18 @@ class AboutMe extends Component {
         <div id= "AboutMe">
 
           <FlexView row="true" style={{height:500}}>
-            <FlexView hAlignContent='center' vAlignContent= 'center' basis={500} >
+            <FlexView column  basis='10%'></FlexView>
+
+            <FlexView column hAlignContent='center' vAlignContent= 'center' basis='20%' >
               <FlexView column>
                 <img src={myFace} id="myFacePic" alt=""></img>
               </FlexView>
             </FlexView>
+
             <Element name="myDescription"></Element>
-            <FlexView column>
+            <FlexView column basis='5%'></FlexView>
+
+            <FlexView column basis='50%'>
               <FlexView row="true" basis={100}></FlexView>
               <FlexView row="true" hAlignContent='center'><h1 className="App-title">About Me</h1></FlexView>
               <FlexView row="true" hAlignContent='center'>
@@ -29,7 +34,7 @@ class AboutMe extends Component {
               </FlexView>
 
               <FlexView row="true" hAlignContent='center'><i>UC Berkeley - Applied Mathematics - Expected Graduation: May 2020</i></FlexView>
-              <FlexView row="true" basis={20}></FlexView>
+              <FlexView row="true"></FlexView>
               <FlexView row="true" hAlignContent='left' vAlignContent='center'>
                 I am a student at UC Berkeley majoring in Applied Mathematics who seeks to solve real world problems
                 using applications of Statistics and Data Science. I am especially interested in Web Development’s applications to fields
@@ -39,7 +44,8 @@ class AboutMe extends Component {
               <FlexView hAlignContent='center'>I am currently looking for a position that will make use of my skills in statistical modeling and data visualization. </FlexView>
               <FlexView hAlignContent='center'>Have an open position in need of a motivated self-starter? Don't hesitate to contact me!</FlexView>
             </FlexView>
-            <FlexView basis={100}></FlexView>
+
+            <FlexView basis='10%'></FlexView>
           </FlexView>
         </div>
 

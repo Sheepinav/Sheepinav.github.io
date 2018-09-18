@@ -17,12 +17,13 @@ class App extends Component {
         <div id="parallax">
           <NavBar />
           <PhotoLinks />
+        </div>
           <AboutMe />
           <Current />
           <Skills />
           <SelectedWorks />
 
-        </div>
+
         <Footer />
       </div>
     );

@@ -11,8 +11,8 @@ class NavBar extends Component {
 
         <header className="App-header">
           <FlexView className="Nav-Bar">
-            <FlexView row="true" grow />
-            <FlexView row="true" basis={800} hAlignContent="center">
+            <FlexView shrink row="true" basis='20%' />
+            <FlexView  shrink row="true" basis='60%' hAlignContent="center">
 
               <FlexView grow hAlignContent='center' vAlignContent='center'><Link activeClass="active" className="myDescription" to="myDescription" spy={true} smooth={true} duration={550} >About Me</Link></FlexView>
               <FlexView grow hAlignContent='center' className="dash">-</FlexView>
@@ -24,7 +24,7 @@ class NavBar extends Component {
               <FlexView grow hAlignContent='center' className="dash">-</FlexView>
               <FlexView grow hAlignContent='center' vAlignContent='center' className="myResume"><a className="resumeLink" href={resume}>My Resume</a></FlexView>
             </FlexView>
-            <FlexView row="true" grow />
+            <FlexView row="true" basis='20%' />
           </FlexView>
           {/* <div>
             <Navbar className="Nav-Bar" >
@@ -45,7 +45,7 @@ class NavBar extends Component {
               </Nav>
             </Navbar>
           </div> */}
-          <div className="spacetest"></div>
+
       </header>
     )
   }

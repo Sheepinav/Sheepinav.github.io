@@ -14,8 +14,8 @@ class AboutMe extends Component {
           <FlexView style={{height:50}}></FlexView>
           <FlexView row="true">
 
-            <FlexView column basis={100}></FlexView>
-            <FlexView column basis={300} >
+            <FlexView column basis='10%'></FlexView>
+            <FlexView column basis='20%' >
               <FlexView row="true" hAlignContent='center'><h2> Selected Works </h2></FlexView>
               <FlexView row="true" hAlignContent='center'>
                 <svg width="240" height="20">
@@ -23,18 +23,18 @@ class AboutMe extends Component {
                 </svg>
               </FlexView>
             </FlexView>
-            <FlexView column basis={100}></FlexView>
-            <FlexView column>
+            <FlexView column basis='5%'></FlexView>
+            <FlexView column basis='50%'>
 
-              <FlexView row="true" grow>
+              <FlexView row="true" >
 
-                <FlexView column style={{width:400}}>
+                <FlexView column basis='45%'>
                   <a href= "https://susa.berkeley.edu/housingcrisis">
                     <img src={housingcrisis} id="housingcrisis" alt=""></img>
                   </a>
                 </FlexView>
-                <FlexView column style={{width:50}}></FlexView>
-                <FlexView column basis={320} hAlignContent='left' style={{display:"inline"}}>
+                <FlexView column basis='10%'></FlexView>
+                <FlexView column basis='45%' hAlignContent='left' style={{display:"inline"}}>
                   A Spring 2018 project as part of one of the Statistics Undergraduate Student Association at Berkeley's Data Consulting Committees.
                   This was submitted as part of a competition hosted by the CTSP at Berkeley and sponsored by Facebook. We ended up winning 2nd place.
                   A full description of our project will be updated later, but our project proposal can be found <a href="https://susa.berkeley.edu/blog/data-for-good-proposal" id="blogLinks">Here.</a>
@@ -47,13 +47,13 @@ class AboutMe extends Component {
               <FlexView style={{height:50}}></FlexView>
 
               <FlexView row="true" grow>
-                <FlexView column style={{width:400}}>
+                <FlexView column basis='45%'>
                   <a href= "https://susa.berkeley.edu/webapp">
                     <img src={popmodeling} id="popmodeling" alt=""></img>
                   </a>
                 </FlexView>
-                <FlexView column style={{width:50}}></FlexView>
-                <FlexView column basis={320} hAlignContent='left'>
+                <FlexView column basis='10%'></FlexView>
+                <FlexView column basis='45%' hAlignContent='left'>
                   <p>A Fall 2018 project as part of one of the Statistics Undergraduate Student Association at Berkeley's Data Consulting Committees.
                     This was a project dedicated to modeling the demographic transition of 10 countries including the US and China as well as using Machine Learning and Time Series techniques to predict future growth.
                   </p>
@@ -62,6 +62,7 @@ class AboutMe extends Component {
 
               <FlexView grow></FlexView>
             </FlexView>
+            <FlexView column basis='15%' />
           </FlexView>
           <FlexView row="true" basis={100}></FlexView>
           </div>

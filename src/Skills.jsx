@@ -14,18 +14,18 @@ class Skills extends Component {
             <FlexView style={{height:50}}></FlexView>
 
             <FlexView row="true">
-              <FlexView column basis={100}></FlexView>
+              <FlexView column basis='10%'></FlexView>
 
-              <FlexView column basis={300} hAlignContent='center'>
-                <FlexView row="true" hAlignContent='center'><h2> My Skills </h2></FlexView>
+              <FlexView column basis='20%' hAlignContent='center'>
+                <FlexView row="true" hAlignContent='center'><h2> Relevant Skills </h2></FlexView>
                 <FlexView row="true" hAlignContent='center'>
-                  <svg width="150" height="20">
-                    <line x1="0" y1="10" x2="150" y2="10" style={{stroke:"rgb(52, 58, 64)", strokeWidth:4}} />
+                  <svg width="230" height="20">
+                    <line x1="0" y1="10" x2="230" y2="10" style={{stroke:"rgb(52, 58, 64)", strokeWidth:4}} />
                   </svg>
                 </FlexView>
               </FlexView>
-              <FlexView column basis={100}></FlexView>
-              <FlexView column grow>
+              <FlexView column basis='5%'></FlexView>
+              <FlexView column  basis='50%'>
                 <FlexView column>
 
                   <FlexView row="true" grow className ="skillContainer">
@@ -76,7 +76,7 @@ class Skills extends Component {
                 </FlexView>
               </FlexView>
 
-              <FlexView column basis={150}></FlexView>
+              <FlexView column basis='15%'></FlexView>
             </FlexView>
 
 
