@@ -153,23 +153,34 @@ svg{
   height:auto;
   object-fit: contain;
 }
-#housingcrisis{
+#twitterflask{
   width:100%;
   height:auto;
   object-fit: contain;
 }
-#housingcrisis:hover{
+#webdev0{
+  width:100%;
+  height:auto;
+  object-fit: contain;
+}
+#webdev0:hover, #twitterflask:hover, #personalwebsite:hover, #housingcrisis:hover, #popmodeling:hover{
   box-shadow: 0 0 5px 3px rgba(52, 58, 64, 0.5);
   opacity:.9;
+}
+#housingcrisis{
+  width:100%;
+  height:auto;
+  object-fit: contain;
 }
 #popmodeling{
   width:100%;
   height:auto;
   object-fit: contain;
 }
-#popmodeling:hover{
-  box-shadow: 0 0 5px 3px rgba(52, 58, 64, 0.5);
-  opacity:.9;
+#personalwebsite{
+  width:100%;
+  height:auto;
+  object-fit: contain;
 }
 #Github{
   width:auto;

@@ -16,7 +16,7 @@ class Current extends Component {
 
             <FlexView column basis='10%'></FlexView>
             <FlexView column basis='20%'>
-              <FlexView row="true" hAlignContent='center'><h2>Current Work</h2></FlexView>
+              <FlexView row="true" hAlignContent='center'><h2>Current Positions</h2></FlexView>
               <FlexView row="true" hAlignContent='center'>
                 <svg width="200" height="20">
                   <line x1="0" y1="10" x2="200" y2="10" style={{stroke:"rgb(52, 58, 64)", strokeWidth:4}} />

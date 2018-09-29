@@ -16,7 +16,7 @@ class NavBar extends Component {
 
               <FlexView grow hAlignContent='center' vAlignContent='center'><Link activeClass="active" className="myDescription" to="myDescription" spy={true} smooth={true} duration={550} >About Me</Link></FlexView>
               <FlexView grow hAlignContent='center' className="dash">-</FlexView>
-              <FlexView grow hAlignContent='center' vAlignContent='center'><Link activeClass="active" className="currentWorks" to="currentWorks" spy={true} smooth={true} duration={500} >Current Work</Link></FlexView>
+              <FlexView grow hAlignContent='center' vAlignContent='center'><Link activeClass="active" className="currentWorks" to="currentWorks" spy={true} smooth={true} duration={500} >Current Positions</Link></FlexView>
               <FlexView grow hAlignContent='center' className="dash">-</FlexView>
               <FlexView grow hAlignContent='center' vAlignContent='center'><Link activeClass="active" className="mySkills" to="skills" spy={true} smooth={true} duration={700} >Relevant Skills</Link></FlexView>
               <FlexView grow hAlignContent='center' className="dash">-</FlexView>
