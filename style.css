@@ -1,0 +1,67 @@
+html{
+  height:100%;
+}
+
+body{
+  height:100%;
+  margin:0px;
+}
+
+nav{
+  width: 90%;
+  display: flex;
+  margin:auto;
+  align-items: center;
+  justify-content: space-between;
+  height: 10%;
+  padding:20px 0;
+}
+
+.main{
+  min-height: 85%;
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr 1fr 5%;
+}
+
+.information{
+  grid-column: 2/3;
+  align-self: end;
+}
+
+.hero{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  height:500px;
+  grid-column: 3/4;
+}
+
+.next{
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 5% 1fr 1fr 1fr 5%;
+}
+
+.col1{
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  height:500px;
+  grid-column: 2/3;
+}
+
+.col2{
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  height:500px;
+  grid-column: 3/4;
+}
+
+.col3{
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  height:500px;
+  grid-column: 4/5;
+}
