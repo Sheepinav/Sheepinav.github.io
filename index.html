@@ -1,51 +1,83 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Abhinav Bhaskar</title>
-    <link rel="stylesheet" href="./style.css" type="text/css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <h3 class="logo">Abhinav Bhaskar</h3>
-        <img src="./images/GitHub-Mark-32px.png" alt="menu">
-      </nav>
-    </header>
-    <div class="main">
-      <div class="information">
-        <h1>Abhinav Bhaskar</h1>
-        <h2>Front End Developer</h2>
-        <img src="./images/GitHub-Mark-32px.png" alt="github">
-        <img src="./images/In-2C-34px-TM.png" alt="linkedin">
-      </div>
-      <div class="hero">
-        <div class="photos">
-
-          <img src="./images/housingcrisis.png" alt="housingcrisis" style="width:100%; height:auto;">
-        </div>
-      </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abhinav Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+  <div class="above-fold-container">
+    <div class="navbar">
+      <p>Github</p>
+      <p>linkedin</p>
+      <p>resume</p>
     </div>
-    <div class="next">
-      <div class="col1">
-        <div class="photos">
-          <img src="./images/housingcrisis.png" alt="housingcrisis" style="width:100%; height:auto;">
-          <img src="./images/housingcrisis.png" alt="housingcrisis" style="width:100%; height:auto;">
+    <h1 class="header-name">Abhinav Bhaskar (Site under construction)</h1>
+    <h3 class="header-title">Full Stack Developer</h3>
+    <p class="header-description">Thank you for coming to my portfolio site. A few of my personal projects are listed below. If you like anything you see, please do not hesistate to reach out!</p>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E5EAF5" fill-opacity="1" d="M0,160L80,165.3C160,171,320,181,480,176C640,171,800,149,960,133.3C1120,117,1280,107,1360,101.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+  <div class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="box project-img">
+        <img src="/assets/images/saasshop.png">
+      </div>
+      <div class="box project-description">
+        <div class="project-title">SaasShop</div>
+        <div class="project-details top">An <span class="project-details-keyword">e-commerce</span> website built for the Student Association for Applied Statistics at at UC Berkeley</div>
+        <div class="project-details top">I lead this project which uses <span class="project-details-keyword">Node.js</span> and <span class="project-details-keyword">Express.js</span> for the backend, <span class="project-details-keyword">React</span> and <span class="project-details-keyword">Redux</span> for the front end, <span class="project-details-keyword">Firebase</span> to handle data storage and authentication, and the <span class="project-details-keyword">Stripe API</span> to handle payments</div>
+        <div class="project-details project-links">
+          <a href="https://github.com/Sheepinav/saasshop">
+            <img src="assets/images/github-logo-D0BDF4.png" alt="">  
+          </a>
         </div>
       </div>
-      <div class="col2">
-        <div class="photos">
-          <img src="./images/housingcrisis.png" alt="housingcrisis" style="width:100%; height:auto;">
-          <img src="./images/housingcrisis.png" alt="housingcrisis" style="width:100%; height:auto;">
+      <div class="box project-img">
+        <img src="/assets/images/twitter-stream.png">
+      </div>
+      <div class="box project-description">
+        <div class="project-title">Twitter Stream</div>
+        <div class="project-details top">A solo project built to <span class="project-details-keyword">stream Tweets</span> from Twitter</div>
+        <div class="project-details top">This uses <span class="project-details-keyword"></span>node.js and <span class="project-details-keyword">express.js</span> for the backend, the <span class="project-details-keyword">twitter for node</span> package to stream tweets, and <span class="project-details-keyword">socket.io</span> for real-time communication between the back end and front end.</div>
+        <div class="project-details project-links">
+          <a class="link-one" href="https://github.com/Sheepinav/twitter-stream">
+            <img src="assets/images/github-logo-D0BDF4.png" alt="">  
+          </a>
+          <a class="link-two" href="https://github.com/Sheepinav/twitter-stream">
+            <img src="assets/images/link.png" alt="">  
+          </a>
         </div>
       </div>
-      <div class="col3">
-        <div class="photos">
-          <img src="./images/housingcrisis.png" alt="housingcrisis" style="width:100%; height:auto;">
-          <img src="./images/housingcrisis.png" alt="housingcrisis" style="width:100%; height:auto;">
+      <div class="box project-image">
+        <div class="box project-description">
+          <div class="project-title">Draftjs Typography</div>
+          <div class="project-details top">A solo project built to <span class="project-details-keyword">stream Tweets</span> from Twitter</div>
+          <div class="project-details top">This uses <span class="project-details-keyword"></span>node.js and <span class="project-details-keyword">express.js</span> for the backend, the <span class="project-details-keyword">twitter for node</span> package to stream tweets, and <span class="project-details-keyword">socket.io</span> for real-time communication between the back end and front end.</div>
+          <div class="project-details project-links">
+            <a class="link-one" href="https://github.com/Sheepinav/draftjs-typography">
+              <img src="assets/images/github-logo-D0BDF4.png" alt="">  
+            </a>
+            <a class="link-two" href="https://asbhaskar.com/draftjs-typography/">
+              <img src="assets/images/link.png" alt="">  
+            </a>
+          </div>
         </div>
       </div>
+      <div class="box project-description">h</div>
     </div>
-    <script src="myscript.js" charset="utf-8"></script>
-  </body>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E5EAF5" fill-opacity="1" d="M0,128L120,122.7C240,117,480,107,720,122.7C960,139,1200,181,1320,202.7L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+  <div class="footer">
+    <div class="contact-container">
+      <p class="contact">Contact me!</p>
+      <p>Abhinav Bhaskar</p>
+      <p>763-898-9372</p>
+      <p>abhinav@asbhaskar.com</p>
+    </div>
+  </div>
+</body>
 </html>
