@@ -22,20 +22,19 @@ h2{
   color: #A28089;
   font-size: 3rem;
 }
+
 img{
   width:100%;
   height:auto;
 }
 
 .navbar{
-  display: flex;
-  width:100%;
-  justify-content: end;
-  padding-top: 1%;
+  color: #E5EAF5;
+  margin-left:20%
 }
 
-.navbar,p{
-  margin-right:5%;
+.navbar:hover{
+  cursor: default;
 }
 
 .above-fold-container{
@@ -45,7 +44,7 @@ img{
 }
 
 .header-name{
-  margin-top:20%;
+  margin-top:18%;
   margin-bottom:1%;
   font-size: 4rem;
   margin-left: 10%;
@@ -146,4 +145,64 @@ a:hover{
   color:#8458B3;
   font-size: 1.6rem;
   margin-bottom:1%;
+}
+
+.footer,a{
+  color: #A28089;
+}
+
+
+@media only screen and (max-width: 800px){
+  .header-name{
+    font-size: 2rem;
+  }
+  
+  .header-title{
+    font-size: 1.2rem;
+    margin-bottom:3%;
+    margin-left: 10%;
+  }
+  
+  .header-description{
+    width:80%;
+    font-size:0.8rem;
+    margin-left: 10%;
+  }
+
+  h2{
+    font-size:2rem;
+    margin-bottom:20%
+  }
+
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 30px;
+    background-color: #fff;
+    color: #444;
+  }
+
+  .box {
+    padding: 0px;
+  }
+
+  .project-title{
+    font-size: 1.6rem;
+  }
+  
+  .project-details{
+    font-size: 0.8em;
+  }
+
+  .project-links img{
+    width: 8%;
+  }
+
+  .contact-container{
+    font-size: 0.8rem;
+  }
+  
+  .contact{
+    margin-bottom:2%;
+  }
 }
