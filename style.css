@@ -125,9 +125,11 @@ img{
   width:5%;
 }
 
-.project-img img{
+.project-img img, video{
   border: solid;
   border-color: #E5EAF5;
+  width:100%;
+  height:100%;
 }
 
 a:hover{
