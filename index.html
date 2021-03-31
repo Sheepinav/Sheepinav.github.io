@@ -1,181 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abhinav's Portfolio Website</title>
-  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">  
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-</head>
-<body>
-  <div class="above-fold-container">
-    <div class="navbar">
-      <p>G</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Abhinav's Portfolio Website</title>
+        <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="above-fold-container">
+            <div class="navbar">
+                <p>G</p>
+            </div>
+            <h1 class="header-name">Abhinav Bhaskar</h1>
+            <h3 class="header-title">Front End Developer</h3>
+            <p class="header-description">Thank you for coming to my portfolio site. A few
+                of my personal projects are listed below. If you like anything you see, please
+                do not hesistate to reach out!</p>
+            <span class="external-links">
+                <a href="https://www.linkedin.com/in/asbhaskar/">
+                    <img src="assets/images/linkedin-logo-A28089.png" alt="">
+                </a>
+                <a href="https://github.com/asbhaskar" style="margin-left:10px;">
+                    <img src="assets/images/github-logo-A28089.png" alt="">
+                </a>
+                <a href="mailto:abhinav@asbhaskar.com" style="margin-left:10px;">
+                    <img src="assets/images/mail-icon-A28089.png" alt="">
+                </a>
+            </span>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+                fill="#E5EAF5"
+                fill-opacity="1"
+                d="M0,160L80,165.3C160,171,320,181,480,176C640,171,800,149,960,133.3C1120,117,1280,107,1360,101.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+        </svg>
+        <div class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="box project-img">
+                    <img src="/assets/images/contract-drafting.png">
+                </div>
+                <div class="box project-description">
+                    <div class="project-title">Contract Drafting Tool</div>
+                    <div class="project-details top">
+                        A recreation of the
+                        <span class="project-details-keyword">MVP</span>
+                        that I built as CTO for
+                        <span class="project-details-keyword">ProvenLaw</span>
+                        (formerly Alljuro)
+                    </div>
+                    <div class="project-details top">
+                        I built this to
+                        <span class="project-details-keyword">help lawyers</span>
+                        automate part of their contract drafting process using
+                        <span class="project-details-keyword">React.js, Draft.js</span>
+                        and originally hosted it on
+                        <span class="project-details-keyword">AWS S3</span>. A full backstory of the
+                        application and technical details can be found using the
+                        <span class="project-details-keyword">link below</span>.
+                        <br/>
+                        <br/>
+                        I have
+                        <span class="project-details-keyword">several planned updates</span>
+                        which will hopefully be published at least once a month for the forseeable
+                        future.
+                    </span>
+                </div>
+                <div class="project-details project-links">
+                    <a class="link-two" href="https://asbhaskar.com/contract-drafting-tool/">
+                        <img src="assets/images/link.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="box project-img">
+                <img src="/assets/images/covid-tracker.png">
+            </div>
+            <div class="box project-description">
+                <div class="project-title">Covid-19 Tracker</div>
+                <div class="project-details top">
+                    An application built to
+                    <span class="project-details-keyword">track the spread of Covid-19</span>. The idea was taken from a youtube video but heavily modified for personal use.
+                </div>
+                <div class="project-details top">
+                    This project was built with
+                    <span class="project-details-keyword">React.js Hooks</span>
+                    and
+                    <span class="project-details-keyword">Typescript</span>
+                    and uses
+                    <span class="project-details-keyword">Chart.js</span>
+                    to graphically display case data from the
+                    <span class="project-details-keyword">disease.sh API</span>. The project also
+                    graphs cases and cases per million on a map of the world using
+                    <span class="project-details-keyword">leaflet.js</span>.
+                </div>
+                <div class="project-details project-links">
+                    <a href="https://github.com/asbhaskar/covid-19-tracker">
+                        <img src="assets/images/github-logo-D0BDF4.png" alt="">
+                    </a>
+                    <a class="link-two" href="https://asbhaskar.com/covid-19-tracker/">
+                        <img src="assets/images/link.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="box project-img">
+                <img src="/assets/images/sorting-algorithms.png">
+            </div>
+            <div class="box project-description">
+                <div class="project-title">Sorting Algorithm Visualizer</div>
+                <div class="project-details top">
+                    A fun side project to visualize
+                    <span class="project-details-keyword">sorting algorithms</span>. Will add more algorithms periodically.
+                </div>
+                <div class="project-details top">
+                    This project was built with
+                    <span class="project-details-keyword">React.js</span>. The project consists of
+                    <span class="project-details-keyword">colored divs</span>
+                    that are sized according to an array. The sorting algorithms then pass animation
+                    data to another function that resizes those divs, creating the animation.
+                </div>
+                <div class="project-details project-links">
+                    <a href="https://github.com/asbhaskar/sorting-algorithms">
+                        <img src="assets/images/github-logo-D0BDF4.png" alt="">
+                    </a>
+                    <a class="link-two" href="https://asbhaskar.com/sorting-algorithms/">
+                        <img src="assets/images/link.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="box project-img">
+                <img src="/assets/images/twitter-stream.png">
+            </div>
+            <div class="box project-description">
+                <div class="project-title">Twitter Stream</div>
+                <div class="project-details top">
+                    A solo project built to
+                    <span class="project-details-keyword">stream Tweets</span>
+                    from Twitter
+                </div>
+                <div class="project-details top">
+                    This uses
+                    <span class="project-details-keyword">node.js</span>
+                    and
+                    <span class="project-details-keyword">express.js</span>
+                    for the backend, the
+                    <span class="project-details-keyword">twitter for node</span>
+                    package to stream tweets, and
+                    <span class="project-details-keyword">socket.io</span>
+                    for real-time communication between the back end and front end.
+                </div>
+                <div class="project-details project-links">
+                    <a href="https://github.com/asbhaskar/twitter-stream">
+                        <img src="assets/images/github-logo-D0BDF4.png" alt="">
+                    </a>
+                </div>
+            </div>
+			<div class="box project-img">
+                <img src="/assets/images/saasshop.png">
+            </div>
+            <div class="box project-description">
+                <div class="project-title">SaasShop</div>
+                <div class="project-details top">
+                    An
+                    <span class="project-details-keyword">e-commerce</span>
+                    website built for the Student Association for Applied Statistics at UC Berkeley
+                </div>
+                <div class="project-details top">
+                    I lead this project which uses
+                    <span class="project-details-keyword">Node.js</span>
+                    and
+                    <span class="project-details-keyword">Express.js</span>
+                    for the backend,
+                    <span class="project-details-keyword">React</span>
+                    and
+                    <span class="project-details-keyword">Redux</span>
+                    for the front end,
+                    <span class="project-details-keyword">Firebase</span>
+                    to handle data storage and authentication, and the
+                    <span class="project-details-keyword">Stripe API</span>
+                    to handle payments
+                </div>
+                <div class="project-details project-links">
+                    <a href="https://github.com/asbhaskar/saasshop">
+                        <img src="assets/images/github-logo-D0BDF4.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="box project-img">
+                <img src="/assets/images/saas-blog.png">
+            </div>
+            <div class="box project-description">
+                <div class="project-title">Intro to WebDev Blog</div>
+                <div class="project-details top">
+                    A short, introductory blog guide to
+                    <span class="project-details-keyword">building your own personal website</span>
+                    that I co-authored
+                </div>
+                <div class="project-details top">
+                    This was a side project from 2018 when I was a
+                    <span class="project-details-keyword">Web Development director</span>
+                    at the Statistics Association for Applied Statistics (formerly SUSA) as part of
+                    an effort to teach my committee members introductory web dev. I was the
+                    <span class="project-details-keyword">main author on parts 0 and 2</span>
+                    (besides a paragraph on branches in part 0).
+                </div>
+                <div class="project-details project-links">
+                    <a href="https://saas.berkeley.edu/webdev/website-tutorial-0">
+                        <img src="assets/images/link.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="box project-img">
+                <img src="/assets/images/draftjs-typography.png">
+            </div>
+            <div class="box project-description">
+                <div class="box project-description">
+                    <div class="project-title">Draftjs Typography</div>
+                    <div class="project-details top">
+                        This was a part of a
+                        <span class="project-details-keyword">contract drafting tool</span>
+                        that I made for lawyers as CTO at
+                        <span class="project-details-keyword">ProvenLaw</span>.
+                    </div>
+                    <div class="project-details top">
+                        This project is built with
+                        <span class="project-details-keyword">Draft.js</span>, a barebones text editor for
+                        <span class="project-details-keyword">React.js</span>. The textbox passes its
+                        state to its parent component which is intended for use with multiple texboxes.
+                        I also added some base
+                        <span class="project-details-keyword">Microsoft Word-like functionality</span>
+                        and a
+                        <span class="project-details-keyword">search and replace</span>
+                        tool.
+                    </div>
+                    <div class="project-details project-links">
+                        <a class="link-one" href="https://github.com/asbhaskar/draftjs-typography">
+                            <img src="assets/images/github-logo-D0BDF4.png" alt="">
+                        </a>
+                        <a class="link-two" href="https://asbhaskar.com/draftjs-typography/">
+                            <img src="assets/images/link.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <h1 class="header-name">Abhinav Bhaskar</h1>
-    <h3 class="header-title">Front End Developer</h3>
-    <p class="header-description">Thank you for coming to my portfolio site. A few of my personal projects are listed below. If you like anything you see, please do not hesistate to reach out!</p>
-    <span class="external-links">
-      <a href="https://www.linkedin.com/in/asbhaskar/">
-        <img src="assets/images/linkedin-logo-A28089.png" alt="">  
-      </a>
-      <a href="https://github.com/asbhaskar" style="margin-left:10px;">
-        <img src="assets/images/github-logo-A28089.png" alt="">  
-      </a>
-      <a href="mailto:abhinav@asbhaskar.com" style="margin-left:10px;">
-        <img src="assets/images/mail-icon-A28089.png" alt="">  
-      </a>
-    </span>
-  </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E5EAF5" fill-opacity="1" d="M0,160L80,165.3C160,171,320,181,480,176C640,171,800,149,960,133.3C1120,117,1280,107,1360,101.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
-  <div class="portfolio">
-    <h2>Portfolio</h2>
-    <div class="portfolio-grid">
-      <div class="box project-img">
-        <img src="/assets/images/contract-drafting.png">
-      </div>
-      <div class="box project-description">
-        <div class="project-title">Contract Drafting Tool</div>
-        <div class="project-details top">
-          A recreation of the <span class="project-details-keyword">MVP</span> that I built as CTO for <span class="project-details-keyword">ProvenLaw</span> (formerly Alljuro)
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+            fill="#E5EAF5"
+            fill-opacity="1"
+            d="M0,128L120,122.7C240,117,480,107,720,122.7C960,139,1200,181,1320,202.7L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+    </svg>
+    <div class="footer">
+        <div class="contact-container">
+            <p class="contact">Contact me!</p>
+            <p>Abhinav Bhaskar</p>
+            <p>763-898-9372</p>
+            <a href="mailto:abhinav@asbhaskar.com">abhinav@asbhaskar.com</a>
         </div>
-        <div class="project-details top">
-          I built this to <span class="project-details-keyword">help lawyers</span> automate part of their contract drafting process using <span class="project-details-keyword">React.js, Draft.js</span> and originally hosted it on <span class="project-details-keyword">AWS S3</span>. A full backstory of the application and technical details can be found using the <span class="project-details-keyword">link below</span>.
-        <br /> <br /> 
-          I have <span class="project-details-keyword">several planned updates</span> which will hopefully be published at least once a month for the forseeable future.
-        </span>
-        </div>
-        <div class="project-details project-links">
-          <a class="link-two" href="https://asbhaskar.com/contract-drafting-tool/">
-            <img src="assets/images/link.png" alt="">  
-          </a>
-        </div>
-      </div>
-      <div class="box project-img">
-        <img src="/assets/images/covid-tracker.png">
-      </div>
-      <div class="box project-description">
-        <div class="project-title">Covid-19 Tracker</div>
-        <div class="project-details top">
-          An application built to <span class="project-details-keyword">track the spread of Covid-19</span>. The idea was taken from a youtube video but heavily modified for personal use.
-        </div>
-        <div class="project-details top">
-          This project was built with <span class="project-details-keyword">React.js Hooks</span>  and <span class="project-details-keyword">Typescript</span> and uses <span class="project-details-keyword">Chart.js</span> to graphically display case data from the <span class="project-details-keyword">disease.sh API</span>. The project also graphs cases and cases per million on a map of the world using <span class="project-details-keyword">leaflet.js</span>.
-        </div>
-        <div class="project-details project-links">
-          <a href="https://github.com/asbhaskar/covid-19-tracker">
-            <img src="assets/images/github-logo-D0BDF4.png" alt="">  
-          </a>
-          <a class="link-two" href="https://asbhaskar.com/covid-19-tracker/">
-            <img src="assets/images/link.png" alt="">  
-          </a>
-        </div>
-      </div>
-      <div class="box project-img">
-        <img src="/assets/images/saasshop.png">
-      </div>
-      <div class="box project-description">
-        <div class="project-title">SaasShop</div>
-        <div class="project-details top">
-          An <span class="project-details-keyword">e-commerce</span> website built for the Student Association for Applied Statistics at UC Berkeley
-        </div>
-        <div class="project-details top">
-          I lead this project which uses <span class="project-details-keyword">Node.js</span> and <span class="project-details-keyword">Express.js</span> for the backend, <span class="project-details-keyword">React</span> and <span class="project-details-keyword">Redux</span> for the front end, <span class="project-details-keyword">Firebase</span> to handle data storage and authentication, and the <span class="project-details-keyword">Stripe API</span> to handle payments
-        </div>
-        <div class="project-details project-links">
-          <a href="https://github.com/asbhaskar/saasshop">
-            <img src="assets/images/github-logo-D0BDF4.png" alt="">  
-          </a>
-        </div>
-      </div>
-      <div class="box project-img">
-        <img src="/assets/images/sorting-algorithms.png">
-      </div>
-      <div class="box project-description">
-        <div class="project-title">Sorting Algorithm Visualizer</div>
-        <div class="project-details top">
-          A fun side project to visualize <span class="project-details-keyword">sorting algorithms</span>. Will add more algorithms periodically.
-        </div>
-        <div class="project-details top">
-          This project was built with <span class="project-details-keyword">React.js</span>. The project consists of <span class="project-details-keyword">colored divs</span> that are sized according to an array. The sorting algorithms then pass animation data to another function that resizes those divs, creating the animation.
-        </div>
-        <div class="project-details project-links">
-          <a href="https://github.com/asbhaskar/sorting-algorithms">
-            <img src="assets/images/github-logo-D0BDF4.png" alt="">  
-          </a>
-          <a class="link-two" href="https://asbhaskar.com/sorting-algorithms/">
-            <img src="assets/images/link.png" alt="">  
-          </a>
-        </div>
-      </div>
-      <div class="box project-img">
-        <img src="/assets/images/twitter-stream.png">
-      </div>
-      <div class="box project-description">
-        <div class="project-title">Twitter Stream</div>
-        <div class="project-details top">
-          A solo project built to <span class="project-details-keyword">stream Tweets</span> from Twitter
-        </div>
-        <div class="project-details top">
-          This uses <span class="project-details-keyword">node.js</span> and <span class="project-details-keyword">express.js</span> for the backend, the <span class="project-details-keyword">twitter for node</span> package to stream tweets, and <span class="project-details-keyword">socket.io</span> for real-time communication between the back end and front end.
-        </div>
-        <div class="project-details project-links">
-          <a href="https://github.com/asbhaskar/twitter-stream">
-            <img src="assets/images/github-logo-D0BDF4.png" alt="">  
-          </a>
-        </div>
-      </div>
-      <div class="box project-img">
-        <img src="/assets/images/saas-blog.png">
-      </div>
-      <div class="box project-description">
-        <div class="project-title">Intro to WebDev Blog</div>
-        <div class="project-details top">
-          A short, introductory blog guide to <span class="project-details-keyword">building your own personal website</span> that I co-authored 
-        </div>
-        <div class="project-details top">
-          This was a side project from 2018 when I was a <span class="project-details-keyword">Web Development director</span> at the Statistics Association for Applied Statistics (formerly SUSA) as part of an effort to teach my committee members introductory web dev. I was the <span class="project-details-keyword">main author on parts 0 and 2</span> (besides a paragraph on branches in part 0).
-        </div>
-        <div class="project-details project-links">
-          <a href="https://saas.berkeley.edu/webdev/website-tutorial-0">
-            <img src="assets/images/link.png" alt="">  
-          </a>
-        </div>
-      </div>
-      <div class="box project-img">
-          <img src="/assets/images/draftjs-typography.png">
-      </div>
-      <div class="box project-description">
-        <div class="box project-description">
-          <div class="project-title">Draftjs Typography</div>
-          <div class="project-details top">
-            This was a part of a <span class="project-details-keyword">contract drafting tool</span> that I made for lawyers as CTO at <span class="project-details-keyword">ProvenLaw</span>.
-          </div>
-          <div class="project-details top">
-            This project is built with <span class="project-details-keyword">Draft.js</span>, a barebones text editor for <span class="project-details-keyword">React.js</span>. The textbox passes its state to its parent component which is intended for use with multiple texboxes. I also added some base <span class="project-details-keyword">Microsoft Word-like functionality</span> and a <span class="project-details-keyword">search and replace</span> tool.
-          </div>
-          <div class="project-details project-links">
-            <a class="link-one" href="https://github.com/asbhaskar/draftjs-typography">
-              <img src="assets/images/github-logo-D0BDF4.png" alt="">  
-            </a>
-            <a class="link-two" href="https://asbhaskar.com/draftjs-typography/">
-              <img src="assets/images/link.png" alt="">  
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E5EAF5" fill-opacity="1" d="M0,128L120,122.7C240,117,480,107,720,122.7C960,139,1200,181,1320,202.7L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
-  <div class="footer">
-    <div class="contact-container">
-      <p class="contact">Contact me!</p>
-      <p>Abhinav Bhaskar</p>
-      <p>763-898-9372</p>
-      <a href="mailto:abhinav@asbhaskar.com">abhinav@asbhaskar.com</a>
-    </div>
-  </div>
 </body>
 </html>
